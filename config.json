@@ -34,7 +34,6 @@
     "default_theme": "dark",
     "roomDirectory": {
         "servers": [
-            "boba.best",
             "matrix.org"
         ]
     },
@@ -52,6 +51,6 @@
         "breadcrumbs": true
     },
     "jitsi": {
-        "preferredDomain": "meet.jit.si"
+        "preferredDomain": "meet.tokhmi.xyz"
     }
 }
