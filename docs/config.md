@@ -341,10 +341,8 @@ If you run your own rageshake server to collect bug reports, the following optio
    not present in the config, the app will disable all rageshake functionality. Set to `https://element.io/bugreports/submit` to submit
    rageshakes to us, or use your own rageshake server.
 2. `uisi_autorageshake_app`: If a user has enabled the "automatically send debug logs on decryption errors" flag, this option will be sent
-   alongside the rageshake so the rageshake server can filter them by app name. By default, this will be `element-web`, as with any other
-   rageshake submitted by the app.
-
-    If you are using the element.io rageshake server, please set this to `element-auto-uisi` so we can better filter them.
+   alongside the rageshake so the rageshake server can filter them by app name. By default, this will be `element-auto-uisi`
+   (in contrast to other rageshakes submitted by the app, which use `element-web`).
 
 If you would like to use [Sentry](https://sentry.io/) for rageshake data, add a `sentry` object to your config with the following values:
 
@@ -517,9 +515,6 @@ Currently, the following UI feature flags are supported:
 -   `UIFeature.voip` - Whether or not VoIP is shown readily to the user. When disabled,
     Jitsi widgets will still work though they cannot easily be added.
 -   `UIFeature.widgets` - Whether or not widgets will be shown.
--   `UIFeature.flair` - Whether or not community flair is shown in rooms.
--   `UIFeature.communities` - Whether or not to show any UI related to communities. Implicitly
-    disables `UIFeature.flair` when disabled.
 -   `UIFeature.advancedSettings` - Whether or not sections titled "advanced" in room and
     user settings are shown to the user.
 -   `UIFeature.shareQrCode` - Whether or not the QR code on the share room/event dialog
