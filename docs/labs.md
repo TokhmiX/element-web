@@ -100,21 +100,10 @@ theme definition.
 
 For some sample themes, check out [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes).
 
-## Message preview tweaks
-
-To enable message previews in the left panel for reactions in all rooms, enable `feature_roomlist_preview_reactions_all`.
-
-To enable message previews for reactions in DMs only, enable `feature_roomlist_preview_reactions_dms`. This is ignored when it is enabled for all rooms.
-
 ## Dehydrated devices (`feature_dehydration`)
 
 Allows users to receive encrypted messages by creating a device that is stored
 encrypted on the server, as described in [MSC2697](https://github.com/matrix-org/matrix-doc/pull/2697).
-
-## Breadcrumbs v2 (`feature_breadcrumbs_v2`)
-
-Instead of showing the horizontal list of breadcrumbs under the filter field, the new UX is an interactive context menu
-triggered by the button to the right of the filter field.
 
 ## Spotlight search (`feature_spotlight`) [In Development]
 
@@ -173,10 +162,6 @@ Enables rendering of MD / HTML in room topics.
 
 Enables exploring public spaces in the new search dialog. Requires the server to
 have [MSC3827](https://github.com/matrix-org/matrix-spec-proposals/pull/3827) enabled.
-
-## Favourite Messages (`feature_favourite_messages`) [In Development]
-
-Enables users to bookmark a message or content for a later reference.
 
 ## Sign in another device by showing a QR code (`feature_qr_signin_reciprocate_show`)
 
